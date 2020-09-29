@@ -47,7 +47,7 @@ so the main idea behind it was to bring all the necessary software under a commo
 
 **WEB**
 
-- eJS/CSS/Bootstrap
+- eJS,CSS,Bootstrap
 
 - jQuery,notifyJS
 
@@ -74,9 +74,9 @@ so the main idea behind it was to bring all the necessary software under a commo
 
 </p>
 <a href="https://github.com/Suvoo">
-<h4 align="left"><b>Suvodeep Sinha</b></a>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<a href="https://github.com/mm1025web"><b>Mohammad Muazam</b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<a href="https://github.com/mm7104"><b>Mayukh Mishra</b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<a href="https://github.com/yashjoshi007"><b>Yash Joshi</b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<h4 align="left"><b>Suvodeep Sinha</b></a>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<a href="https://github.com/mm1025web"><b>Mohammad Muazam</b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<a href="https://github.com/mm7104"><b>Mayukh Mishra</b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<a href="https://github.com/yashjoshi007"><b>Yash Joshi</b>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
   
   </h4></a>
