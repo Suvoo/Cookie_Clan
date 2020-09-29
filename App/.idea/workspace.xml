@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a917d9c8-c956-4f85-a929-5abe84a10945" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/Login_activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/ic_baseline_assignment_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/ic_baseline_create_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/popupbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/waves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/activity_login_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/fragment_timeline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/fragment_upload.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/popup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/TimelineFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/TimelineFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/UploadFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/java/com/example/hackscan/UploadFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/ic_baseline_list_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/drawable/logo_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/menu/bottom_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/menu/bottom_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackScan/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/hackScan/gradlew" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hackScan" />
+  </component>
+  <component name="ProjectId" id="1hrjbAKMluhKcEGigMoXMb9i3pH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a917d9c8-c956-4f85-a929-5abe84a10945" name="Default Changelist" comment="" />
+      <created>1600776174735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600776174735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1601314208331">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="490" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1601314208331" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1601314161152">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1601314161152" />
+  </component>
+</project>
