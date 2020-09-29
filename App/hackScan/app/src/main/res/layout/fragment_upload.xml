@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2"
+        android:background="@drawable/waves"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+
+
+            <LinearLayout
+                android:background="@drawable/bg4"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="       Assignment 1"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/up1"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="280dp"
+                android:layout_width="73dp"
+                android:layout_height="66dp"
+                android:background="@drawable/u2" />
+            <Button
+                android:id="@+id/up01"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"
+                android:text="Submit"
+                android:textSize="25dp"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@drawable/buttonu" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp">
+
+
+            <LinearLayout
+                android:background="#de6262"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="       Assignment 2"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/up2"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="280dp"
+                android:layout_width="73dp"
+                android:layout_height="66dp"
+                android:background="@drawable/u2" />
+            <Button
+                android:id="@+id/up02"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"
+                android:text="submit"
+                android:textSize="25dp"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@drawable/buttonu" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp">
+
+
+            <LinearLayout
+                android:background="#e43a15"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="       Assignment 3"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/up3"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="280dp"
+                android:layout_width="73dp"
+                android:layout_height="66dp"
+                android:background="@drawable/u2" />
+            <Button
+                android:id="@+id/up03"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"
+                android:text="Submit"
+                android:textSize="25dp"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@drawable/buttonu" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp">
+
+
+            <LinearLayout
+                android:background="@drawable/bg1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="       Assignment 4"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/up4"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="280dp"
+                android:layout_width="73dp"
+                android:layout_height="66dp"
+                android:background="@drawable/u2" />
+            <Button
+                android:id="@+id/up04"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"
+                android:text="submit"
+                android:textSize="25dp"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@drawable/buttonu" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp">
+
+
+            <LinearLayout
+                android:background="@drawable/bg6"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="       Assignment 5"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/up5"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="280dp"
+                android:layout_width="73dp"
+                android:layout_height="66dp"
+                android:background="@drawable/u2" />
+            <Button
+                android:id="@+id/up05"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"
+                android:text="submit"
+                android:textSize="25dp"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@drawable/buttonu" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp">
+
+
+            <LinearLayout
+                android:background="@drawable/bg2"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="       Assignment 6"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/up6"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="280dp"
+                android:layout_width="73dp"
+                android:layout_height="66dp"
+                android:background="@drawable/u2" />
+            <Button
+                android:id="@+id/up06"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="10dp"
+                android:text="submit"
+                android:textSize="25dp"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@drawable/buttonu" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>
