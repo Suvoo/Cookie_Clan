@@ -1,6 +1,8 @@
 # Submission by Cookie Clan for T-Hacks v3.0
 Entry of Cookie Clan, from SRM Institute of Science and Technology, Kattankulathur, to T-Hacks v3.0.
 
+<p align="left"><img width=25% src="Cookie%20Clan.jpg"></p>
+
 <h2 align= "left"><b>Tracks and Problem Statement</b></h2>
 
 Open Innovation: An open-ended theme where the only restriction is your imagination. Build the ideas that you believe in and make a difference. It can either be hardware or software.
@@ -32,20 +34,20 @@ so the main idea behind it was to bring all the necessary software under a commo
 <img width=40% src="Web/ScreenshotsWeb/ScreenshotWeb3.PNG"> &ensp;
 <img width=40% src="Web/ScreenshotsWeb/ScreenshotWeb4.PNG"> &ensp;
 <img width=40% src="Web/ScreenshotsWeb/ScreenshotWeb5.PNG"> &ensp;
-<img width=40% src="Web/ScreenshotsWeb/ScreenshotWeb6.PNG"> &ensp;
+<img width=40% src="Web/ScreenshotsWeb/ScreenshotWeb7.PNG"> &ensp;
 </p>
 
 <h2 align= "left"><b>Have Fun With Our Product</b></h2>
 
-- *Website Link* : https://digi-learn.herokuapp.com/
+- Website Link : https://digi-learn.herokuapp.com/
 
-- *App Apk Link* : https://bit.ly/Digi_Learn
+- App Apk Link : https://bit.ly/Digi_Learn
 
-- *Youtube Demo Link* : Coming Soon
+- Youtube Demo Link : Coming Soon
 
 <h2 align= "left"><b>Tech Stack Used</b></h2>
 
-**WEB**
+*WEB*
 
 - eJS,CSS,Bootstrap
 
@@ -55,7 +57,7 @@ so the main idea behind it was to bring all the necessary software under a commo
 
 - Firebase Storage
 
-**APP**
+*APP*
 
 - Java,Android Studio
 
