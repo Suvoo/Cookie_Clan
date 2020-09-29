@@ -68,7 +68,7 @@ so the main idea behind it was to bring all the necessary software under a commo
 
 <p align="left">
 <img width=20% src="https://avatars1.githubusercontent.com/u/52796258">&ensp;&ensp;&ensp;
-<img width=20% src="https://avatars1.githubusercontent.com/u/60972077?s=400&u=575a434cf1a609203192f76977ac73892adeadbb&v=4">&ensp;&ensp;&ensp;
+<img width=20% src="https://avatars1.githubusercontent.com/u/60972077?s=400&u=14d5b3d5d606437f8b9d3e7f767b1b025f06f907&v=4">&ensp;&ensp;&ensp;
 <img width=20% src="https://avatars3.githubusercontent.com/u/61306993?s=400&u=e6e5493d2bdad021b552221de8c7575d7c58bf40&v=4">&ensp;&ensp;&ensp;
 <img width=20% src="https://avatars3.githubusercontent.com/u/52818067?s=400&u=4347e9d0856b8e884693dc6d7762ae4e1eefd38a&v=4">&ensp;&ensp;&ensp;
 
