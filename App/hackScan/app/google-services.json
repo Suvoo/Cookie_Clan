@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680103501733",
+    "firebase_url": "https://hackscan-e1c32.firebaseio.com",
+    "project_id": "hackscan-e1c32",
+    "storage_bucket": "hackscan-e1c32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680103501733:android:54ca075d44b9e2a3ac924c",
+        "android_client_info": {
+          "package_name": "com.example.hackscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680103501733-dpajb1hpb0uhkgq3fsok6h5lm4pdkv44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRbpEldSXfztbfyTwqdELaGZmKAlmSJAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680103501733-dpajb1hpb0uhkgq3fsok6h5lm4pdkv44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

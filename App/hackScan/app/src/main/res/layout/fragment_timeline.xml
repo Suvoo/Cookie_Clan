@@ -20,7 +20,7 @@
             android:layout_height="60dp"
             app:cardCornerRadius="8dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="20dp">
 
 
@@ -241,7 +241,7 @@
                         android:layout_marginTop="-10dp"
                         android:layout_marginBottom="3dp"
                         android:layout_marginLeft="30dp"
-                        android:text="11 Aug -  Janmashtmi"
+                        android:text="11 Aug - Janmashtmi"
                         android:textSize="30dp"
                         android:textColor="#000000"/>
 
@@ -360,7 +360,7 @@
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="100dp"
             app:cardCornerRadius="8dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
@@ -388,7 +388,7 @@
                         android:layout_marginTop="-10dp"
                         android:layout_marginBottom="3dp"
                         android:layout_marginLeft="30dp"
-                        android:text="02 Oct -  Gandhi Jayan."
+                        android:text="02 Oct- Gandhi Jayanti"
                         android:textSize="30dp"
                         android:textColor="#000000"/>
 
@@ -607,7 +607,8 @@
             app:cardCornerRadius="8dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp">
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp">
 
 
             <LinearLayout
