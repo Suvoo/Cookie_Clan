@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* body{
+    background: linear-gradient(to right, #23a3ce,#fff);
+} */
+#myModal2{
+    font-family: 'Lobster', cursive;
+    
+}
+#myModal h4{
+    font-size: 25px;
+}
+#myModal2 .close{
+    position: absolute;
+    z-index: 9999999;
+    right: 10px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+#myModal2 .close:focus,
+#myModal2 .close:active
+#myModal2 .close:hover{
+    outline: none;
+    border: none;
+}
+#class .btn {
+    /* background:linear-gradient(to right, #ff512f, #f09819); */
+    border: none;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+#class .btn-proceed{
+    background:linear-gradient(to right, #16222a, #3a6073);
+}
+#class .btn-close{
+    background:linear-gradient(to right, #ff512f, #f09819);
+}
+#class .btn:hover,#class .btn:focus {
+    transform: scale(1.05);
+}
+#class .modalImg{
+    display: flex;
+    justify-content: center;
+}
+#class .container input{
+    border: 1px solid grey!important;
+    margin: 5px 15px;
+}
+
+#index {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    min-height: 100vh;
+    /* background: url(https://media.tenor.com/videos/f17e106787ac1b910bc4b8801ec0842b/mp4); */
+}
+#days .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#days .container span{
+    margin: 5px 15px;
+    cursor: pointer;
+    border: 3px solid orangered;
+   background:  linear-gradient(to right, #8e2de2, #4a00e0);
+   background: linear-gradient(to right, #16222a, #3a6073);
+   background: linear-gradient(to right, #51768d, #26a0da);
+   background:linear-gradient(to right, #ff512f, #f09819);
+   font-family: 'Lato',sans-serif;
+    color: white;
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    opacity: 0.8;
+    padding-top:12px ;
+    transition: 0.4s;
+}
+#days .container .today{
+    padding-top: 7px!important;
+    font-weight: 700!important;
+}
+#days .container .today::before{
+    content: 'Today';
+    font-size: 7px;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+}
+#days .container .nextDay{
+    padding-top: 7px!important;
+    font-weight: 700!important;
+}
+#days .container .nextDay::before{
+    content: 'Next';
+    font-size: 7px;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+}
+#days .container span:hover{
+    transform: scale(1.05);
+    opacity: 0.95;
+}
+
+#days .container .currentDay{
+    color: white;
+    transform: scale(1.2);
+    font-weight: 600;
+    border: 5px solid orangered;
+    padding-top: 10px;
+    opacity: 1;
+    transition: 0.4s;
+}
+#days .container .currentDay:hover{
+    transform: scale(1.25);
+    opacity: 1;
+}
+#index .card{
+    margin: 30px 0;
+    width: 45vw;
+    height: 260px;
+    transition: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+}
+#index .col-xl-12{
+    display: flex;
+    justify-content: center;
+}
+#index .card img{
+    width:45vw;
+    height: 320px;
+    transition: 0.4s;
+    margin-top: -20px;
+}
+#index .card:hover{
+    transform:scale(1.05);
+    border: none;
+    box-shadow:7px 7px 7px rgba(0,0,0,0.6);
+  }
+  #index .card-title{
+    position: absolute;
+    margin: 20px 0 30px 0;
+    font-size: 35px;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    text-shadow: 
+      4px 4px 0px #363636, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+#index .card-link{
+    position: absolute;
+    margin-top: 65px;
+}
+#index a.card-link{
+    text-decoration: none;
+    color: white;
+
+    font-size: 15px;
+}
+#index a.card-link:hover{
+    text-decoration: underline;
+}
+#index .card-subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    margin-top:95px;
+    font-family: 'Secular One', sans-serif; 
+}
+
+#index .card-subtitle:hover{
+    text-decoration: underline;
+}
+#index .card-text{
+    position: absolute;
+    bottom: 20px;    
+}
+
+@media(max-width:1100px){
+    .card{
+        margin: 30px 0;
+        width: 55vw!important;
+        height: 240px;
+    }
+    .card img{
+        width:55vw!important;
+        height: 240px;
+    }   
+}
+
+@media(max-width:900px){
+    .card{
+        margin: 30px 0;
+        width: 60vw!important;
+        height: 220px;
+    }
+    .card img{
+        width:60vw!important;
+        height: 220px;
+    }   
+}
+@media(max-width:767px){
+    body{
+        margin-top: -50px;
+    }   
+}
+@media(max-width:750px){
+    .card{
+        margin: 30px 0;
+        width: 65vw!important;
+        height: 200px;
+    }
+    .card img{
+        width:65vw!important;
+        height: 200px;
+    }   
+}
+@media(max-width:600px){
+    .card{
+        margin: 30px 0;
+        width: 75vw!important;
+        height: 200px;
+    }
+    .card img{
+        width:75vw!important;
+        height: 200px;
+    }   
+}
+@media(max-width:490px){
+    #index a.card-link{
+        color: #000;
+    }
+}
+@media(max-width:450px){
+    .card{
+        margin: 20px 0;
+        margin-left: 30px;
+        width: 78vw!important;
+        height: 210px;
+    }
+    .card img{
+        width:78vw!important;
+        height: 210px;
+    }
+    #days .container span{
+        margin: 5px 7px;
+    }
+}
+@media(max-width:375px){
+    #days .today::before{
+        left: 12px!important;
+    }
+    .card{
+        margin: 20px 0;
+        margin-left: 30px;
+        width: 85vw!important;
+        height: 215px;
+    }
+    .card img{
+        width:85vw!important;
+        height: 215px;
+    }
+}
+@media(max-width:365px){
+    
+    #days .container span{
+        margin: 5px 7px;
+    }
+    #days .today::before{
+        left: 11px!important;
+    }
+}
+@media(max-width:350px){
+    #days .today::before{
+        left: 10px!important;
+    }
+}

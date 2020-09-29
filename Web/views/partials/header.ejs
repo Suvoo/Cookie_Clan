@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- fontAwesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <!-- flickity -->
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>DigiLearn</title>
+    <link rel="icon" href="images/Final Logo.jpeg" type="image/ico" />
+    <link rel="stylesheet" href="/css/<%= typeof page !== 'undefined' ? page : '' %>.css">
+    
+    <link rel="stylesheet" href="/css/nav.css">
+</head>
+<body>
+  
+    <section id="navbar">
+        <nav class="navbar smart-scroll navbar-expand-md navbar-dark bg-primary">
+            <a class="navbar-brand text-dark" href="#">
+              
+              <img src="images/finallogo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="navbar-nav">   
+                <li class="nav-item"> <a class="nav-link" href="/" id="Lhome"><i class="fa fa-tasks" aria-hidden="true"></i> Time Table </a> </li>
+                <li class="nav-item"><a class="nav-link" href="/events" id="Levents"> <i class="fa fa-calendar" aria-hidden="true"></i> Events </a></li>
+                <li class="nav-item"><a class="nav-link" href="/assignments" id="Lassignments"> <i class="fa fa-book" aria-hidden="true"></i> Assignments </a></li>
+              </ul>
+            </div> <!-- navbar-collapse.// -->
+          </nav>
+    </section>
+
+    <section id="bottom-nav">
+        <div class="container">
+            <nav class="navbar navbar-dark bg-primary fixed-bottom">
+            <ul class="nav">
+              <li class="nav-item ">
+                <a class="nav-link" id="home" href="/" title="Time Table"><i class="fa fa-tasks " aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="events" href="/events" title="Events"><i class="fa fa-calendar" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="assignments" href="/assignments" title="Assignments"><i class="fa fa-book" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+    </section>
+    <div class="wrapper-bg" id="bgImg">
+      <video autoplay loop muted class="wrapper__video">
+          <source src="images/background.mp4">
+       </video>
+      </div>

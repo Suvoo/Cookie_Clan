@@ -1,0 +1,227 @@
+<%- include("partials/header") %>
+        
+    <section id="assignments">   
+        <div class="container">
+            <div class="row it d-flex justify-content-center">
+            <div class=" col-sm-10" id="one">
+                <p>
+                Please upload documents only in 'pdf', 'docx', 'rtf' or 'text' format.
+                </p><br>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 mb-3">
+                        <h3 class="text-center subject">English</h3>
+                    </div>
+                </div>
+                <div id="uploader">
+                    <div class="row uploadDoc d-flex justify-content-center">
+
+                        <div class="col-4 ">
+                            <div class="docErr">Please upload valid file</div>
+                            <div class="fileUpload btn btn-orange text-center">
+                                <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+                                <span class="upl" id="upload">Select</span>
+                                <input type="file" class="upload up" id="files" multiple onchange="readURL(this);" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center" id="pgrs1">
+                    <p id="uploading"></p>
+                    <progress value="0" max="100" id="progress"></progress>
+                </div>
+                
+                <div class="text-center mt-5">
+                    <!-- <a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a> -->
+                    <a class="btn btn-next" id="send"><i class="fa fa-paper-plane"></i> Upload</a>
+                </div>
+                </div>
+            </div>
+
+
+            <!-- subject 2 -->
+            <div class="row it d-flex justify-content-center">
+                <div class=" col-sm-10" id="two">
+                    <p>
+                    Please upload documents only in 'pdf', 'docx', 'rtf' or 'text' format.
+                    </p><br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 mb-3">
+                            <h3 class="text-center subject">Computer</h3>
+                        </div>
+                    </div>
+                    <div id="uploader">
+                        <div class="row uploadDoc d-flex justify-content-center">
+    
+                            <div class="col-4 ">
+                                <div class="docErr">Please upload valid file</div>
+                                <div class="fileUpload btn btn-orange text-center">
+                                    <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+                                    <span class="upl" id="upload2">Select</span>
+                                    <input type="file" class="upload up" id="files2" multiple onchange="readURL(this);" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="text-center" id="pgrs2">
+                        <p id="uploading"></p>
+                        <progress value="0" max="100" id="progress2"></progress>
+                    </div>
+                    
+                    <div class="text-center mt-5">
+                        <!-- <a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a> -->
+                        <a class="btn btn-next" id="send2"><i class="fa fa-paper-plane"></i> Upload</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row it d-flex justify-content-center">
+                    <div class=" col-sm-10" id="three">
+                        <p>
+                        Please upload documents only in 'pdf', 'docx', 'rtf' or 'text' format.
+                        </p><br>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 mb-3">
+                                <h3 class="text-center subject">Science</h3>
+                            </div>
+                        </div>
+                        <div id="uploader">
+                        <div class="row uploadDoc d-flex justify-content-center">
+    
+                            <div class="col-4 ">
+                                <div class="docErr">Please upload valid file</div>
+                                <div class="fileUpload btn btn-orange text-center">
+                                    <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+                                    <span class="upl" id="upload3">Select</span>
+                                    <input type="file" class="upload up" id="files3" multiple onchange="readURL(this);" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="text-center" id="pgrs3">
+                        <p id="uploading"></p>
+                        <progress value="0" max="100" id="progress3"></progress>
+                    </div>
+                    
+                    <div class="text-center mt-5">
+                        <!-- <a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a> -->
+                        <a class="btn btn-next" id="send3"><i class="fa fa-paper-plane"></i> Upload</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row it d-flex justify-content-center">
+                    <div class=" col-sm-10" id="four">
+                        <p>
+                        Please upload documents only in 'pdf', 'docx', 'rtf' or 'text' format.
+                        </p><br>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 mb-3">
+                                <h3 class="text-center subject">Mathematics</h3>
+                            </div>
+                        </div>
+                        <div id="uploader">
+                            <div class="row uploadDoc d-flex justify-content-center">
+        
+                                <div class="col-4 ">
+                                    <div class="docErr">Please upload valid file</div>
+                                    <div class="fileUpload btn btn-orange text-center">
+                                        <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+                                        <span class="upl" id="upload4">Select</span>
+                                        <input type="file" class="upload up" id="files4" multiple onchange="readURL(this);" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="text-center" id="pgrs4">
+                            <p id="uploading"></p>
+                            <progress value="0" max="100" id="progress4"></progress>
+                        </div>
+                        
+                        <div class="text-center mt-5">
+                            <!-- <a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a> -->
+                            <a class="btn btn-next" id="send4"><i class="fa fa-paper-plane"></i> Upload</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row it d-flex justify-content-center">
+                        <div class=" col-sm-10" id="five">
+                            <p>
+                            Please upload documents only in 'pdf', 'docx', 'rtf' or 'text' format.
+                            </p><br>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-12 mb-3">
+                                    <h3 class="text-center subject">Social Science</h3>
+                                </div>
+                            </div>
+                            <div id="uploader">
+                                <div class="row uploadDoc d-flex justify-content-center">
+            
+                                    <div class="col-4 ">
+                                        <div class="docErr">Please upload valid file</div>
+                                        <div class="fileUpload btn btn-orange text-center">
+                                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+                                            <span class="upl" id="upload5">Select</span>
+                                            <input type="file" class="upload up" id="files5" multiple onchange="readURL(this);" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="text-center" id="pgrs5">
+                                <p id="uploading"></p>
+                                <progress value="0" max="100" id="progress5"></progress>
+                            </div>
+                            
+                            <div class="text-center mt-5">
+                                <!-- <a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a> -->
+                                <a class="btn btn-next" id="send5"><i class="fa fa-paper-plane"></i> Upload</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="row it d-flex justify-content-center">
+                            <div class=" col-sm-10 mb-5" id="six">
+                                <p>
+                                Please upload documents only in 'pdf', 'docx', 'rtf' or 'text' format.
+                                </p><br>
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-12 mb-3">
+                                        <h3 class="text-center subject">Hindi</h3>
+                                    </div>
+                                </div>
+                                <div id="uploader">
+                                    <div class="row uploadDoc d-flex justify-content-center">
+                
+                                        <div class="col-4 ">
+                                            <div class="docErr">Please upload valid file</div>
+                                            <div class="fileUpload btn btn-orange text-center">
+                                                <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+                                                <span class="upl" id="upload6">Select</span>
+                                                <input type="file" class="upload up" id="files6" multiple onchange="readURL(this);" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="text-center" id="pgrs6">
+                                    <p id="uploading"></p>
+                                    <progress value="0" max="100" id="progress6"></progress>
+                                </div>
+                                
+                                <div class="text-center mt-5">
+                                    <!-- <a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a> -->
+                                    <a class="btn btn-next" id="send6"><i class="fa fa-paper-plane"></i> Upload</a>
+                                </div>
+                                </div>
+                            </div>
+            
+        </div>
+    </section>
+    
+
+<%- include("partials/footer") %>

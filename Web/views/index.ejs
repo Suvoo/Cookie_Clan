@@ -1,0 +1,77 @@
+<%- include("partials/header") %>
+<div id="overlayer"></div>
+  <span class="loader">
+    <img src="images/Final Logo.jpeg" alt="" class="loader-img">
+  </span>
+    <section id="days">
+        <div class="container">
+            <span id="Mon">Mon</span>
+            <span id="Tue">Tue</span>
+            <span id="Wed">Wed</span>
+            <span id="Thu">Thu</span>
+            <span id="Fri">Fri</span>
+        </div>
+    </section>
+
+    <section id="index" class="mb-3">
+        
+    </section>
+
+
+
+<section id="class">
+    <div class="container">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <!-- <div class="modal-header text-center">
+              
+              <h4 class="modal-title" id="myModalLabel">Enter your details</h4>
+            </div> -->
+            <div class="modal-body">
+              <div class="modalImg">
+                  <img src="images/Final Logo.jpeg" alt="logo" height="160">
+              </div>
+              <form class="form-inline" name="myform">
+                 <div class="form-group">
+                   <div class="input-group text-center">
+                     <input type="text" class="form-control" id="name" name="name" placeholder="Your name is" >
+                   </div>
+                   <div class="input-group text-center">
+                    <input type="text" class="form-control" id="studentClass" name="class" placeholder="You study in (1st, 2nd...)" maxlength="3">
+                  </div>
+                 </div>
+               </form>
+               <div class="mt-1" style="text-align:left">
+                <input type="checkbox" id="human" name="human" />
+                <label for="human">I am a human and not a robot.</label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-close" data-dismiss="modal">Close</button> -->
+              <button id="cityName" type="button" class="btn btn-proceed welcomeUser" data-dismiss="modal">Proceed</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal fade">
+        <div class="modal-dialog modal-md ">
+            <div class="modal-content">
+              <button type="button" class="close text-left" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <!-- <span class="modal-title text-center" id="Name"></span> -->
+                    <h6 class="welcome"></h6>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+
+
+<%- include("partials/footer") %>
