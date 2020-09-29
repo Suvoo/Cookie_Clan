@@ -58,7 +58,13 @@
 
 
 /* navbar  */
-body.modal-open #index,body.modal-open #days,body.modal-open #navbar,body.modal-open #bottom-nav,body.modal-open #footer,body.modal-open #bgImg{
+body.modal-open #index,
+body.modal-open #days,
+body.modal-open #navbar,
+body.modal-open #bottom-nav,
+body.modal-open #footer,
+body.modal-open #bgImg,
+body.modal-open #games{
   filter: blur(20px);
   /* filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur); */
   /* filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4'); */
@@ -87,10 +93,12 @@ body.modal-open #index,body.modal-open #days,body.modal-open #navbar,body.modal-
   height: 230px;
   margin-top: 10px;
   margin-left: -20px;
+  filter: drop-shadow(5px 5px 5px #000);
 }
 #navbar nav .navbar-nav li a{
     color: rgb(185, 185, 185);
     margin: 0 20px;
+    font-size: 18px;
     transition: 0.1s;
     transform: scale(1);
     cursor: pointer;

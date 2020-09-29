@@ -13,16 +13,14 @@
     font-size: 25px;
 }
 #myModal2 .close{
-    position: absolute;
     z-index: 9999999;
-    right: 10px;
-    font-size: 30px;
+    font-size: 40px;
     outline: none;
     border: none;
 }
-#myModal2 .close:focus,
-#myModal2 .close:active
-#myModal2 .close:hover{
+.modal .close:focus,
+.modal .close:active
+.modal .close:hover{
     outline: none;
     border: none;
 }
@@ -55,7 +53,7 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     padding: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background: url(https://media.tenor.com/videos/f17e106787ac1b910bc4b8801ec0842b/mp4); */
 }
 #days .container{
@@ -64,14 +62,14 @@
     margin-top: 10px;
 }
 #days .container span{
-    margin: 5px 15px;
+    margin: 5px 10px;
     cursor: pointer;
     border: 3px solid orangered;
-   background:  linear-gradient(to right, #8e2de2, #4a00e0);
-   background: linear-gradient(to right, #16222a, #3a6073);
-   background: linear-gradient(to right, #51768d, #26a0da);
-   background:linear-gradient(to right, #ff512f, #f09819);
-   font-family: 'Lato',sans-serif;
+    background:  linear-gradient(to right, #8e2de2, #4a00e0);
+    background: linear-gradient(to right, #16222a, #3a6073);
+    background: linear-gradient(to right, #51768d, #26a0da);
+    background:linear-gradient(to right, #ff512f, #f09819);
+    font-family: 'Lato',sans-serif;
     color: white;
     border-radius: 50px;
     width: 55px;
@@ -121,7 +119,12 @@
     transform: scale(1.25);
     opacity: 1;
 }
-#index .card{
+
+
+
+
+
+#index .card,#games .card{
     margin: 30px 0;
     width: 45vw;
     height: 260px;
@@ -131,22 +134,48 @@
     border: none;
     border-radius: 10px;
 }
-#index .col-xl-12{
+#index .col-xl-12 ,#games .col-xl-12{
     display: flex;
     justify-content: center;
 }
 #index .card img{
-    width:45vw;
-    height: 320px;
+    width:46vw;
+    height: 300px;
     transition: 0.4s;
-    margin-top: -20px;
+    /* margin-left: -5px; */
+    margin-top: -25px;
+}
+#games .card img{
+    width:46vw;
+    height: 300px;
+    transition: 0.4s;
+    margin-top: -25px;
+}
+
+#games .card-button{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    background: #16222a;
+    background: linear-gradient(to right,rgb(41,10,117),rgb(41,10,117));
+    color: rgb(62, 150, 233);
+
+}
+#games .card-button:hover{
+    box-shadow: inset 3px 3px 7px #00000073,
+              inset -3px -3px 7px rgba(25, 28, 32, 0.288);
 }
 #index .card:hover{
     transform:scale(1.05);
     border: none;
     box-shadow:7px 7px 7px rgba(0,0,0,0.6);
   }
-  #index .card-title{
+#index .card-title{
     position: absolute;
     margin: 20px 0 30px 0;
     font-size: 35px;
@@ -157,6 +186,7 @@
       4px 4px 0px #363636, 
       7px 7px 0px rgba(0, 0, 0, 0.2);
 }
+
 #index .card-link{
     position: absolute;
     margin-top: 65px;
@@ -257,6 +287,9 @@
     }
 }
 @media(max-width:375px){
+    #days .container span{
+        margin: 5px 1px;
+    }
     #days .today::before{
         left: 12px!important;
     }
@@ -273,9 +306,7 @@
 }
 @media(max-width:365px){
     
-    #days .container span{
-        margin: 5px 7px;
-    }
+    
     #days .today::before{
         left: 11px!important;
     }
