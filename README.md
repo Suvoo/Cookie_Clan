@@ -43,7 +43,7 @@ so the main idea behind it was to bring all the necessary software under a commo
 
 - App Apk Link : https://bit.ly/Digi_Learn
 
-- Youtube Demo Link : Coming Soon
+- Youtube Demo Link : https://youtu.be/jwKtAKP_82A
 
 <h2 align= "left"><b>Tech Stack Used</b></h2>
 
