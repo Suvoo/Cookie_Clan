@@ -3,6 +3,10 @@ Entry of Cookie Clan, from SRM Institute of Science and Technology, Kattankulath
 
 <p align="left"><img width=25% src="Cookie%20Clan.jpg"></p>
 
+# RESULT : Update
+
+This submission was in the <b>TOP 10 projects </b> in the hackathon and our team made into the top 10 teams present.
+
 <h2 align= "left"><b>Tracks and Problem Statement</b></h2>
 
 Open Innovation: An open-ended theme where the only restriction is your imagination. Build the ideas that you believe in and make a difference. It can either be hardware or software.
