@@ -1,8 +1,11 @@
 <%- include("partials/header") %>
-<div id="overlayer"></div>
+<section id="preloader">
+  <div id="overlayer"></div>
   <span class="loader">
-    <img src="images/logo.jpeg" alt="" class="loader-img">
+    <img src="images/logo.jpeg" alt="" class="img-fluid">
   </span>
+</section>
+
     <section id="days">
         <div class="container">
             <span id="Mon">Mon</span>
@@ -29,7 +32,7 @@
         <img class="card-img" src="images/games3.jpg" alt="subject">
         <div class="card-img-overlay text-white ">
             <!-- <h4 class="card-title">${subjects[Day[i]-1].subject}</h4> -->
-            <button class="btn card-button" onClick='window.open("https://www.gamestolearnenglish.com/");'>Play Now</button>
+            <button class="btn card-button" onClick='window.open("https://www.turtlediary.com/games/science.html");'>Play Now</button>
         </div>
         </div>
       </div>
@@ -38,7 +41,7 @@
         <img class="card-img" src="images/games4.png" alt="subject">
         <div class="card-img-overlay text-white ">
             <!-- <h4 class="card-title">${subjects[Day[i]-1].subject}</h4> -->
-            <button class="btn card-button">Play Now</button>
+            <button class="btn card-button" onClick='window.open("https://www.gamestolearnenglish.com/");'>Play Now</button>
         </div>
         </div>
     </div>
@@ -91,7 +94,7 @@
     <div id="myModal2" class="modal fade">
         <div class="modal-dialog modal-md ">
             <div class="modal-content">
-              <button type="button" class="close cb text-right mr-2" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <button type="button" class="close cb text-left" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <div class="modal-body text-center">
                     <!-- <span class="modal-title text-center" id="Name"></span> -->
                     <h6 class="welcome"></h6>
@@ -106,7 +109,9 @@
             <button type="button" class="close text-right mr-1" data-dismiss="modal" aria-hidden="true">&times;</button>
               <div class="modal-body text-center">
                   <!-- <span class="modal-title text-center" id="Name"></span> -->
-                  <h4 class="Yayyy">Yayyyy! No class today... Let's play some games!</h4>
+                  <h4 class="Yayyy">Yayyyy! No class today... Let's play some games with</h4>
+                  <br>
+                  <img src='images/welcome.jpg' class='img-fluid' height='250'>
               </div>
               
           </div>

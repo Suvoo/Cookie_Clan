@@ -13,7 +13,9 @@
     font-size: 25px;
 }
 #myModal2 .close{
+    position: absolute;
     z-index: 9999999;
+    right: 6px;
     font-size: 40px;
     outline: none;
     border: none;
